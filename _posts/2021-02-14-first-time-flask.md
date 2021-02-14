@@ -30,10 +30,10 @@ export FLASK_APP=<APP_NAME>.py
 {% highlight bash %}
 # Change FLASK_ENV
 
-# to Development Environtment
+# to Development Environment
 export FLASK_ENV=development
 
-# to Production Environtment
+# to Production Environment
 export FLASK_ENV=production
 {% endhighlight %}
 
