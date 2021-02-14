@@ -9,12 +9,17 @@ How to run `flask` on your local machine
 
 {% highlight bash %}
 # Install venv
-python3 -m venv venv
+$ python3 -m venv venv
 {% endhighlight %}
 
 {% highlight bash %}
 # Activate venv
-. venv/bin/activate
+$ . venv/bin/activate
+{% endhighlight %}
+
+{% highlight bash %}
+# Install flask for the first time in activated env
+$ pip install Flask
 {% endhighlight %}
 
 <!-- {% highlight bash %}
@@ -24,26 +29,26 @@ deactivate
 
 {% highlight bash %}
 # Export FLASK_APP
-export FLASK_APP=<APP_NAME>.py
+$ export FLASK_APP=<APP_NAME>.py
 {% endhighlight %}
 
 {% highlight bash %}
 # Change FLASK_ENV
 
 # to Development Environment
-export FLASK_ENV=development
+$ export FLASK_ENV=development
 
 # to Production Environment
-export FLASK_ENV=production
+$ export FLASK_ENV=production
 {% endhighlight %}
 
 {% highlight bash %}
 # Run Flask
-flask run
+$ flask run
 {% endhighlight %}
 
 {% highlight bash %}
 # Run specific host Flask
-flask run --host=0.0.0.0
+$ flask run --host=0.0.0.0
 {% endhighlight %}
 
