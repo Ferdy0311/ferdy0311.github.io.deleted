@@ -66,16 +66,16 @@ class Product:
         self.price = price
 {% endhighlight %}
 
-If we want to reformat the value assigned to the property we need just to update the `setName` method like this:
+If we want to reformat the value assigned to the property, we can update the `setName` method like this:
 
 {% highlight python %}
     def setName(self, name):
         self.name = 'The' + name
 {% endhighlight %}
 
-Instead of formatting the value one by one, we can just reformat the value directly from the method.
+Instead of formatting the value one by one, just reformat the value directly from the method.
 
-And if we had an error in our application. We can just add breakpoint in our `setName` method to trace when our value are replaced.
+And if we had an error in our application. We can trace that problem by adding breakpoint in our `setName` method.
 
 In Visual Studio Code, you can trace where is the caller of our method. So we can directly know what cause an error.
 
