@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Time Flask"
+title:  "Simple Act That Will Make Code Cleaner"
 date:   2021-02-19 20:37:00 +0700
 categories: clean code
 ---
