@@ -81,5 +81,4 @@ In Visual Studio Code, you can trace where is the caller of our method. So we ca
 
 And thats all my opinion to make our code more cleaner.
 
-Thank you,
-Ferdy
+Thank you.
