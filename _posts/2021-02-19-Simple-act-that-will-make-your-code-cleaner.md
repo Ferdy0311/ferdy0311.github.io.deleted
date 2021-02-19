@@ -14,7 +14,7 @@ And the technique is
 Yes, assigning or changing the variable directly is bad in my opinion, especially in `Object Oriented Programming` world. Here is why.
 
 First, imagine we have `Product` model in our application.
-Let say Product model like this.
+Let say we have `Product` model like this.
 
 {% highlight python %}
 # illustration written using python
